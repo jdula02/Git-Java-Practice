@@ -1,7 +1,7 @@
 package SimpleMediaPlayer;
 import java.util.Scanner;
 
-public class MediaPlayerDemo {
+public class Demo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
