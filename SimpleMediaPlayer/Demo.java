@@ -7,7 +7,7 @@ public class Demo {
 
         // Get user input
         System.out.println("Enter 'A' to play an audio file or 'V' to play a video file:");
-        String input = scanner.nextLine().trim().toLowerCase();
+        String input = scanner.nextLine().trim().toLowerCase(); // puts user input to lower case
 
         // Validate input and assign a polymorphic variable
         MediaPlayer player;
@@ -16,7 +16,7 @@ public class Demo {
         } else if (input.equals("v")) {
             player = new VideoPlayer();  // Polymorphic assignment
         } else {
-            System.out.println("Invalid choice.");
+            System.out.println("Invalid choice."); // Output for invalid input
             scanner.close();
             return;
         }
